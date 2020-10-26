@@ -1,0 +1,23 @@
+/* This refers to the jumbotron */
+
+.bootstrap-override .jumbotron h1 {
+    position: relative;
+    font-size: 450%;
+    margin-top: 40%;
+}
+
+.bootstrap-override p {
+    position: relative;
+
+}
+
+.jumbotron {
+    background: url("../assets/jumbotron.jpg") center bottom;
+    opacity: 90%;
+    background-size: cover;
+    color: #070D08;
+    min-height: 100vh;
+    margin-top: -62px;
+}
+
+

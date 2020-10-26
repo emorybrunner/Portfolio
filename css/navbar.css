@@ -1,0 +1,22 @@
+.bootstrap-override nav {
+    background-color: rgb(124, 121, 122, .2);
+    justify-content: center;
+    height: 45px;
+    position: fixed;
+    top: 0;
+    z-index: 101;
+    font-size: 20px;
+    margin-left: 25px;
+    padding-right: 32px;
+}
+
+.bootstrap-override a {
+    color: #070D08;
+
+}
+
+.bootstrap-override svg {
+    height: 23px;
+    width: 23px;
+    margin-bottom: 10px;
+}

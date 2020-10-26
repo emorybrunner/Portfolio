@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@400;500&family=Aleo&family=Open+Sans+Condensed:wght@300&display=swap');
+
+body {
+    font-family: 'Aleo', serif;
+    background-color: #F3F3F6;
+    color: #070D08;
+}
+
+.bootstrap-override .col-sm-3 {
+    top: 11px;
+}
