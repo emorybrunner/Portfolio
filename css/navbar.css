@@ -2,7 +2,7 @@
     background-color: rgb(124, 121, 122, .2);
     justify-content: center;
     height: 45px;
-    position: fixed;
+    position: absolute;
     top: 0;
     z-index: 101;
     font-size: 20px;
@@ -16,7 +16,15 @@
 }
 
 .bootstrap-override svg {
-    height: 23px;
-    width: 23px;
-    margin-bottom: 10px;
+    height: 30px;
+    width: 30px;
+}
+
+.bootstrap-override .toTop {
+    width: 40px;
+    height: 40px;
+    bottom: 7%;
+    left: 93%;
+    z-index: 100;
+    position: fixed;
 }

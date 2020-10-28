@@ -1,0 +1,27 @@
+.svgs {
+    margin-left: 5%;
+}
+
+.svgs svg {
+    margin-top: 25px;
+    position: relative;
+    fill: #9296A0;
+    transition: 0.1s;
+    transition-timing-function: ease-in-out;
+}
+
+.svgs svg:hover {
+    fill: #97a089;
+}
+
+h3 {
+    margin-top: 11px;
+    margin-left: -6%;
+}
+
+#portrait img {
+    height: 400px;
+    margin-top: 80px;
+    margin-left: 60px;
+    border-radius: 20px;
+}
