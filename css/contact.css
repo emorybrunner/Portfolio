@@ -1,17 +1,28 @@
-.contact {
+.bootstrap-override #contact {
     margin-top: 75px;
     padding-top: 40px;
-    width: auto;
-    height: 75vh;
+    width: 100%;
+    height: 89vh;
+    justify-content: center;
+    position: relative;
     background-color: #cecdd2 ;
+}
+
+.bootstrap-override #contact h4 {
+    margin-left: 25vw;
 }
 
 .bootstrap-override .contactForm {
     justify-content: center;
     position: relative;
+    margin-left: 25vw;
 }
 
-.bootstrap-override .contact button {
+.bootstrap-override input {
+    width: 50vw;
+}
+
+.bootstrap-override #contact button {
     background-color: #e6e5ec;
     margin-top: -20px;
     border: transparent;
@@ -22,6 +33,6 @@
     transition-timing-function: ease-in-out;
 }
 
-.contact button:hover {
+#contact button:hover {
     background-color: #97a089;
 }

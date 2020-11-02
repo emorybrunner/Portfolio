@@ -25,3 +25,7 @@ h3 {
     margin-left: 60px;
     border-radius: 20px;
 }
+
+.bootstrap-override #about a {
+    color: #97a089;
+}

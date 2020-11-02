@@ -4,6 +4,7 @@ body {
     font-family: 'Aleo', serif;
     background-color: #F3F3F6;
     color: #070D08;
+    width: 100%;
 }
 
 .bootstrap-override .col-sm-3 {

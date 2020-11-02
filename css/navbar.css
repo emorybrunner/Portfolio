@@ -21,10 +21,14 @@
 }
 
 .bootstrap-override .toTop {
-    width: 40px;
-    height: 40px;
+    width: 55px;
+    height: 55px;
+    padding: 10px 10px 10px 10px;
     bottom: 7%;
     left: 93%;
     z-index: 100;
     position: fixed;
+    background-color: #F3F3F6;
+    border: 2px solid #9296A0;
+    border-radius: 100%;
 }

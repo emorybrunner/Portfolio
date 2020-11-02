@@ -1,0 +1,22 @@
+.bootstrap-override .footer {
+    background-color: #373d36;
+    height: 15vh
+}
+
+.bootstrap-override .icons {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.bootstrap-override .icons svg {
+    fill: #F3F3F6;
+    margin-top: 4vh;
+    margin-left: 15px;
+    transition: 0.1s;
+    transition-timing-function: ease-in-out;
+}
+
+.bootstrap-override .icons svg:hover{
+    fill: #97a089;
+}

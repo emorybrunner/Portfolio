@@ -1,17 +1,36 @@
-.projects {
-    margin-top: 30px;
-}
-
-.projectCards {
-    padding-top: 40px;
+.bootstrap-override .row {
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 40px;
     position: relative;
 }
 
-.projects img {
+
+.bootstrap-override .card {
     width: 300px;
+    margin-left: 5vw;
     justify-content: center space-evenly;
-    flex-direction: row;
-    margin-left: 7%;
-    margin-bottom: 2%;
 }
 
+.bootstrap-override .card-body {
+    background-color: #cecdd2;
+    height: 140px;
+    text-align: center;
+    transition: 0.1s;
+    transition-timing-function: ease-in-out;
+}
+
+.bootstrap-override .card-body:hover {
+    background-color: #97a089;
+}
+
+.bootstrap-override hr {
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-bottom: 30px;
+}
+
+.bootstrap-override #projectsHeader {
+    text-align: center;
+    margin-top: 40px;
+}
