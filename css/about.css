@@ -1,9 +1,19 @@
-.svgs {
-    margin-left: 5%;
+.svgs  {
+    margin-left: 3%;
+}
+
+#skillsTitle {
+    margin-left: 3%;
+}
+
+.skillsColumn {
+    display: flex;
+    flex-flow: column wrap;
 }
 
 .svgs svg {
     margin-top: 25px;
+    margin-bottom: 15px;
     position: relative;
     fill: #9296A0;
     transition: 0.1s;
